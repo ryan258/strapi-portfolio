@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "critters",
+  "info": {
+    "name": "Critter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "critter_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

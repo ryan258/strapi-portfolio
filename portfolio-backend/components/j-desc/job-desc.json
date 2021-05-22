@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_j_desc_job_descs",
+  "info": {
+    "name": "job_desc",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "jd_bullet": {
+      "type": "string"
+    }
+  }
+}
