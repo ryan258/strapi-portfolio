@@ -24,7 +24,7 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         // queryLimit: 1000, // Defaults to 100
-        collectionTypes: [`job`], //! make sure you have at least 1 piece of content published first!
+        collectionTypes: [`job`, `project`],
         // singleTypes: [`home-page`, `contact`],
       },
     },
