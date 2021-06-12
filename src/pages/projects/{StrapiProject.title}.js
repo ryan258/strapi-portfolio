@@ -3,8 +3,14 @@ import { graphql } from "gatsby"
 import Seo from "../../components/Seo"
 
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
+  // We want to share individual projects w/ a unique card
   return (
     <>
+      <Seo
+        title={data.strapiProject.title.toUpperCase()}
+        description={data.strapiProject.description}
+        image={data.strapiProject.image.localFile.publicURL}
+      />
       <main className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>
