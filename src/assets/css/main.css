@@ -215,7 +215,7 @@ Navbar
   height: 5rem;
   display: flex;
   align-items: center;
-  z-index: 200;
+  z-index: 33;
   background: var(--clr-white);
 }
 .nav-center {
